@@ -1,7 +1,6 @@
 'use strict';
 
-var request = require('supertest'),
-  should = require('should');
+var request = require('supertest');
 
 // API under test
 var app = require('../api/server');
